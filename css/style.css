@@ -1,0 +1,64 @@
+.body-fondo {
+    background-image: url("/images/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav-barra{
+display: inline-block;    
+background: black;
+color: #fff ;
+padding: 10px 40px;
+text-decoration: none;
+opacity: 1;
+border-radius: 20px;
+}
+.nav-barra:hover{
+background: darkblue ;
+
+}
+nav{
+background: grey ;
+padding: 10px;
+display: flex ;
+justify-content: space-around;
+opacity: 0.8;
+
+}
+
+:root {
+    --color-fuente: #fff;
+  }
+  .general {
+    background-color: rgb(38, 16, 80);
+    display: flex ;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 400px;
+    width: 1000px;
+    opacity: 0.8;
+  }
+  .elemento1 {
+    background-color: rgb(93, 89, 112);
+    color: var(--color-fuente);
+    display: block ;
+    position: relative ;
+    height: 200px;
+    width: 200px;
+    top: 35px;
+    left: 25px;
+    text-align: center;
+  
+}
+
+h1{
+color: rgb(247, 246, 250);
+background-color: darkgray;
+text-align: center ;
+opacity: 0.9;
+display: block;
+width: 400px;
+height: 50px;
+position: relative;
+left: 500px;
+}
