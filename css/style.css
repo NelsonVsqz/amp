@@ -34,7 +34,7 @@ opacity: 0.8;
     display: flex ;
     margin: 0 auto;
     justify-content: space-around;
-    height: 400px;
+    height: 450px;
     width: 1000px;
     opacity: 0.8;
   }
@@ -61,4 +61,19 @@ width: 400px;
 height: 50px;
 position: relative;
 left: 500px;
+}
+footer{
+  color: rgb(247, 246, 250);
+  background: rgb(19, 4, 48);
+  text-align: center ;
+  display: block;
+  width: 400px;
+  height: 110px;
+  position: relative;
+  left: 500px;
+}
+.secfoo{
+background-size: cover ;
+background-color: rgb(3, 3, 3);
+
 }
