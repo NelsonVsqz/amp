@@ -77,3 +77,29 @@ background-size: cover ;
 background-color: rgb(3, 3, 3);
 
 }
+
+@media (max-width: 767px ){
+  nav{
+    display: grid ;
+    justify-content: stretch  ;
+      
+  }
+  .general {
+    
+    display: grid ;
+    
+    justify-content: stretch;
+    height: 1000px;
+    width: 500px;
+  }
+  footer{
+    text-align: center ;   
+    display: grid;
+    width: 100px;
+    height: 250px;
+    left: 50px;
+  }
+
+
+
+} ;
